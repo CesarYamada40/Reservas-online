@@ -1,0 +1,23 @@
+name: hotel_reservas
+description: A hotel reservation application.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.13.1
+  firebase_core: ^2.22.0
+  firebase_auth: ^4.14.0
+  google_fonts: ^6.1.0
+  provider: ^6.1.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
